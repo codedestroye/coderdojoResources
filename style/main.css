@@ -32,17 +32,23 @@ p {
 
 :visited {
     background-color: var(--secondary-bg-color);
-    color: white;
+    color: var(--secondary-bg-color);
 }
 
 :link {
-    color: var(--secondary-bg-color);
+    color: white;
+
 }
 
 hr{
     color: var(--secondary-bg-color);
     background: var(--secondary-bg-color);
     height: .4em;
+}
+
+h1:hover, li:hover {
+    transform: scale(1.1);
+    background: var(--main-bg-color);
 }
 
 .center-content {
