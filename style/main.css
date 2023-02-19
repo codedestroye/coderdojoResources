@@ -1,0 +1,57 @@
+:root {
+   --main-bg-color: #2A3D66 ;
+   --secondary-bg-color: #5D54A4; 
+   --main-text-color: #9D65C9; 
+   --secondary-text-color: #D789D7; 
+
+}
+
+@font-face {
+    font-family: shinGo;
+    src: url(../Resources/Fonts/ShinGo.otf);
+  }
+
+
+body {
+    font-family: 'shinGo';
+    background-color: var(--secondary-bg-color);
+    color: var(--main-text-color);
+
+    padding: 0;
+    margin: 0;
+}
+
+
+h1,h2,h3 {
+    color: var(--main-text-color);
+}
+
+p {
+    color: var(--secondary-text-color);
+}
+
+:visited {
+    background-color: var(--secondary-bg-color);
+    color: white;
+}
+
+:link {
+    color: var(--secondary-bg-color);
+}
+
+hr{
+    color: var(--secondary-bg-color);
+    background: var(--secondary-bg-color);
+    height: .4em;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    background-color: var(--main-bg-color);
+    height: 100%;
+    padding: 2em;
+}
