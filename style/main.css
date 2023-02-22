@@ -60,3 +60,8 @@ h1:hover, li:hover {
     height: 100%;
     padding: 2em;
 }
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
